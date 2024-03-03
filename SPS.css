@@ -1,0 +1,156 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,96,121,0.8795167725293243) 35%, rgba(0,212,255,1) 100%);
+}
+.hide{
+    display:none;
+}
+.container{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.headingDiv{
+   
+    height:10%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rpcMd{
+   
+    height:40%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rDiv{
+    
+    height:27vh;
+    width:27vh;
+    
+}
+.pDiv{
+    
+    height:27vh;
+    width:27vh;
+    
+}
+.sDiv{
+    
+    height:27vh;
+    width:27vh;
+   
+}
+.rImg{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    
+}
+.rDiv:hover .rImg{
+    border:1.5vh solid black;
+}
+.pImg{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.pDiv:hover .pImg{
+    border:1.5vh solid black;
+}
+.sImg{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.sDiv:hover .sImg{
+    border:1.5vh solid black;
+}
+.score{
+    
+    height:25%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.score1{
+    font-size: 5vh;
+    height:13vh;
+    width:18vh;
+    background-color: rgb(155, 176, 176);
+    border-radius: 1vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.score2{
+    font-size: 5vh;
+    height:13vh;
+    width:18vh;
+    background-color: rgb(155, 176, 176);
+    border-radius: 1vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moveDiv{
+    background-color: black;
+    color:white;
+    font-size: 5vh;
+    height:20vh;
+    width:40vh;
+    border-radius: 2vh;
+    padding-left: 17px;
+}
+
+
+@media  (max-width:700px) {
+    .rDiv{
+        height:30vw;
+        width:30vw;
+        
+    }
+    .pDiv{
+        
+        height:30vw;
+        width:30vw;
+        
+    }
+    .sDiv{
+        height:30vw;
+        width:30vw;
+    }
+
+    .rDiv:hover .rImg{
+        border:.5vh solid black;
+    }
+   
+    .pDiv:hover .pImg{
+        border:.5vh solid black;
+    }
+    
+    .sDiv:hover .sImg{
+        border:.5vh solid black;
+    }
+}
